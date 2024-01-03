@@ -22,7 +22,9 @@ body {
   color: var(--main-color-alt);
   margin: 0px;
 }
-
+::selection {
+  background: var(--section-background);
+}
 a {
   text-decoration: none;
 }
@@ -614,11 +616,11 @@ ul {
 }
 
 .features .container .box .img-holder img {
-  max-width: 100%;
+  max-width: 101%;
 }
 
 .features .container .box h2 {
-  font-size: 40px;
+  font-size: 33px;
   margin: auto;
   position: relative;
   width: fit-content;
@@ -635,16 +637,16 @@ ul {
 
 .features .container .box p {
   line-height: 2;
-  font-size: 20px;
-  margin: 30px 0;
-  padding: 25px;
+  font-size: 15px;
+  margin: 17px 0;
+  padding: 20px;
   color: #777;
 }
 
 .features .box a {
   display: block;
   width: fit-content;
-  margin: 0 auto 30px;
+  margin: 0 auto 20px;
   font-weight: bold;
   font-size: 20px;
   padding: 10px 30px;
@@ -667,7 +669,16 @@ ul {
   background-size: 200% 100%;
   background-position: right bottom;
 }
-
+.features .more {
+  font-size: 18px;
+}
+.features .github {
+  color: var(--main-color);
+  border-radius: 5px;
+  background-size: 200% 100%;
+  background-position: right bottom;
+  font-weight: bolder;
+}
 .features .time .img-holder::before {
   background-color: rgb(0 150 136 / 60%);
 }
