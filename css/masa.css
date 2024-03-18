@@ -441,7 +441,7 @@ ul {
     text-align: justify;
     text-align-last: center;
     padding: 10px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
     line-height: 1.4;
   }
@@ -1244,11 +1244,11 @@ ul {
 @keyframes up-and-down {
   0%,
   100% {
-    top: 0;
+    top: 60px;
   }
 
   50% {
-    top: -40px;
+    top: -20px;
   }
 }
 
