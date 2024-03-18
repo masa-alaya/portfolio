@@ -405,7 +405,7 @@ ul {
 
 @media (max-width: 767px) {
   .landing .text h1 {
-    font-size: 33px;
+    font-size: 28px;
     letter-spacing: -1px;
   }
 }
@@ -440,7 +440,7 @@ ul {
   .landing .text p {
     text-align: justify;
     text-align-last: center;
-    padding: 15px;
+    padding: 10px;
     font-size: 15px;
     font-weight: bold;
     line-height: 1.4;
