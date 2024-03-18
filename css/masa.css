@@ -423,8 +423,8 @@ ul {
   }
 }
 .landing .text p {
-  font-size: 23px;
-  line-height: 1.7;
+  font-size: 20px;
+  line-height: 1.5;
   color: #4a596ced;
   text-align: justify;
 }
@@ -440,9 +440,10 @@ ul {
   .landing .text p {
     text-align: justify;
     text-align-last: center;
-    padding: 17px;
-    font-size: 16px;
+    padding: 15px;
+    font-size: 14px;
     font-weight: bold;
+    line-height: 1.4;
   }
 }
 
