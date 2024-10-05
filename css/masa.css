@@ -41,9 +41,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-.spec-container {
-  width: 1000px;
-}
+
 /* Small */
 @media (min-width: 768px) {
   .container {
