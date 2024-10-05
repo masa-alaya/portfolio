@@ -47,6 +47,9 @@ ul {
   .container {
     width: 750px;
   }
+  .spec-container {
+    width: 550px;
+  }
 }
 
 /* Medium */
@@ -54,12 +57,18 @@ ul {
   .container {
     width: 970px;
   }
+  .spec-container {
+    width: 870px;
+  }
 }
 
 /* Large */
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+  }
+  .spec-container {
+    width: 1000px;
   }
 }
 
@@ -562,13 +571,17 @@ ul {
   background-color: var(--section-background);
 }
 
-.features .container {
+.features .spec-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 77px;
 }
 
-.features .container .box {
+.features .spec-container .box {
   text-align: center;
   border: 1px solid #ccc;
   background-color: white;
@@ -576,11 +589,11 @@ ul {
   overflow: hidden;
 }
 
-.features .container .box .img-holder {
+.features .box .img-holder {
   position: relative;
 }
 
-.features .container .box .img-holder::before {
+.features .box .img-holder::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -589,45 +602,46 @@ ul {
   top: 0px;
 }
 
-.features .container .box .img-holder::after {
+.features .box .img-holder::after {
   content: "";
   position: absolute;
   bottom: 0;
   right: 0;
   border-style: solid;
-  border-width: 0px 0px 170px 500px;
+  border-width: 0px 0px 150px 525px;
   border-color: transparent transparent white transparent;
   transition: var(--main-transition-duration);
 }
 
-.features .container .box:hover .img-holder::after {
-  border-width: 170px 500px 240px 0px;
+.features .box:hover .img-holder::after {
+  border-width: 0px 525px 150px 0px;
 }
 
 @media (max-width: 685px) {
-  .features .container .box .img-holder::after {
+  .features .box .img-holder::after {
     border-width: 0 0 240px 640px;
     bottom: -70px;
   }
 
-  .features .container .box:hover .img-holder::after {
+  .features .box:hover .img-holder::after {
     border-width: 0px 640px 240px 0px;
     bottom: 0;
   }
 }
 
-.features .container .box .img-holder img {
+.features .box .img-holder img {
   max-width: 101%;
+  overflow: hidden;
 }
 
-.features .container .box h2 {
+.features .box h2 {
   font-size: 33px;
   margin: auto;
   position: relative;
   width: fit-content;
 }
 
-.features .container .box h2::before {
+.features .box h2::before {
   content: "";
   position: absolute;
   width: calc(100% - 30px);
@@ -636,7 +650,7 @@ ul {
   bottom: -15px;
 }
 
-.features .container .box p {
+.features .box p {
   line-height: 2;
   font-size: 15px;
   margin: 17px 0;
