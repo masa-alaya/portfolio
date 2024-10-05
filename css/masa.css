@@ -42,12 +42,6 @@ ul {
   margin-right: auto;
 }
 
-@media (min-width: 687px) {
-  .spec-container {
-    width: 550px;
-  }
-}
-
 /* Small */
 @media (min-width: 768px) {
   .container {
