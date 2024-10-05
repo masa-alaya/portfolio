@@ -611,13 +611,13 @@ ul {
   bottom: 0;
   right: 0;
   border-style: solid;
-  border-width: 0px 0px 150px 510px;
+  border-width: 0px 0px 150px 770px;
   border-color: transparent transparent white transparent;
   transition: var(--main-transition-duration);
 }
 
 .features .box:hover .img-holder::after {
-  border-width: 0px 510px 150px 0px;
+  border-width: 0px 770px 150px 0px;
 }
 
 @media (max-width: 685px) {
@@ -631,7 +631,7 @@ ul {
     bottom: 0;
   }
   .features .main-title {
-    font-size: 19px;
+    font-size: 17px;
   }
 }
 
