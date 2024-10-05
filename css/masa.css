@@ -41,7 +41,9 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-
+.spec-container {
+  width: 1000px;
+}
 /* Small */
 @media (min-width: 768px) {
   .container {
@@ -579,7 +581,6 @@ ul {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 77px;
-  width: 1000px;
 }
 
 .features .spec-container .box {
