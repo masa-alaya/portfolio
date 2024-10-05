@@ -579,6 +579,7 @@ ul {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 77px;
+  width: 1000px;
 }
 
 .features .spec-container .box {
